@@ -5,17 +5,18 @@
     top:0;
     width: 100%;
     overflow: hidden;
-    background-color: grey;
+    background-color: lightgrey;
 }
 ul.topnav li {float: left;}
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    font-family: courier;
 }
 ul.topnav li a:hover {background-color: #555;}
 
@@ -24,7 +25,11 @@ ul.topnav li a:hover {background-color: #555;}
 }
 
 .jumbotron {
-  background-image: url("img/iceland.jpg");
-  background-size: 100%;
+  background-image: url("http://3.bp.blogspot.com/-I6lfSyUQfxw/UrAULxkuyDI/AAAAAAAAQs0/GmAIGohkeaY/s1600/waterfall-godafoss-iceland.jpg");
+  width:100%;
+  height:100%;
   color: white;
+  font-family: Courier;
+  text-align: center;
+
 }
